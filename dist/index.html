@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <body>
+    <div id="greeting"></div>
+    <h3>Sign Up</h3>
+    <form id="signupForm">
+      <input
+        type="text"
+        id="firstName"
+        placeholder="Enter First Name"
+        required
+      /><br /><br />
+      <input
+        type="text"
+        id="lastName"
+        placeholder="Enter Last Name"
+        required
+      /><br /><br />
+      <input
+        type="text"
+        id="signupEmail"
+        placeholder="Enter Email"
+        required
+      /><br /><br />
+      <input
+        type="text"
+        id="signupPassword"
+        placeholder="Enter Password"
+        required
+      /><br /><br />
+      <input type="submit" value="Sign Up" />
+    </form>
+
+    <h3>Login</h3>
+    <form id="loginForm">
+      <input
+        type="email"
+        id="loginEmail"
+        placeholder="Enter email"
+        required
+      /><br /><br />
+      <input
+        type="password"
+        id="loginPassword"
+        placeholder="Enter password"
+        required
+      /><br /><br />
+      <input type="submit" value="Login" />
+    </form>
+
+    <h3>Logout</h3>
+    <form id="logoutForm">
+      <input type="submit" value="Logout" />
+    </form>
+
+    <h2>Song List:</h2>
+    <div id="songList"></div>
+
+    <h3>Add Song</h3>
+    <form id="addForm">
+      <input
+        type="text"
+        id="addSong"
+        placeholder="Enter Song"
+        required
+      /><br /><br />
+      <input type="submit" value="Add" />
+    </form>
+
+    <h3>Delete Song</h3>
+    <form id="deleteForm">
+      <input
+        type="text"
+        id="deleteSong"
+        placeholder="Enter Song"
+        required
+      /><br /><br />
+      <input type="submit" value="Delete" />
+    </form>
+  </body>
+  <script src="index.bundle.js"></script>
+</head>
